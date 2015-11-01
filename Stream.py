@@ -10,7 +10,8 @@ from SystemParameters import DEFAULT_STREAM_SIZE,\
 # Import numpy and pandas if StreamArray (numpy) and StreamSeries (Pandas)
 # are used.
 import numpy as np
-import pandas as pd
+# Don't need Pandas unless StreamSeries is used.
+#import pandas as pd
 from collections import namedtuple
 
 # TimeAndValue is used for timed messages.
